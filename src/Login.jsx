@@ -1,5 +1,19 @@
 import React from 'react';
-import {Description, Wrapper,Title, InputWrapper, Input, UserIcon} from './style'
+import {
+  Description,
+  Wrapper,
+  Title,
+  InputWrapper,
+  Input,
+  UserIcon,
+  PasswordIcon,
+  Info,
+  Button,
+  Checkbox,
+  Forget
+} from './style'
+
+
 function Login() {
   return (
     <Wrapper>
@@ -12,9 +26,16 @@ function Login() {
         <InputWrapper>
             <UserIcon />
             <Input placeholder="Username" />
-            <Input placeholder="Password" />
-            
         </InputWrapper>
+        <InputWrapper>
+            <PasswordIcon />
+            <Input placeholder="Password" />
+        </InputWrapper>
+        <Info>
+          <Checkbox type="checkbox" /> <span>Keep me <br /> loged</span>
+            <Button margin1>Log In</Button>
+        </Info>
+        <Forget href="#">Forget your password ?</Forget>
     </Wrapper>
   );
 }
