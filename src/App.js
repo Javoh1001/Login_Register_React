@@ -1,7 +1,7 @@
 import React from 'react';
-import Login from './components/Login'
-import Register from './components/Register'
-import  { Container } from './components/style'
+import Login from './Login'
+import Register from './Register'
+import  { Container } from './style'
 function App() {
   return (
     <Container>
