@@ -57,7 +57,7 @@ class Login extends React.Component {
               </InputWrapper>
               <Info>
                 <Checkbox type="checkbox" /> <span>Keep me <br /> loged</span>
-                  <Button type="submit" margin1>Log In</Button>
+                  <Button type="submit"  margin1>Log In</Button>
               </Info>
               <Forget href="#">Forget your password ?</Forget>
             </form>
