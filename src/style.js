@@ -26,6 +26,7 @@ export const Wrapper = styled.div`
     // align-items:center;
     padding:30px;
 `
+// export const Form = styled.form``
 
 export const Description = styled.div`
     color:#fff;
@@ -115,10 +116,13 @@ export const Checkbox = styled.input`
 `
 
 export const Forget = styled.a`
-    margin-left:auto;
+    display:block;
+    text-align:end;
     margin-top:20px;
     font-size:18px;
     font-family:'verdana';
     color:#fff;
     text-decoration:none;
 `
+
+
